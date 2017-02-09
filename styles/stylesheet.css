@@ -17,6 +17,7 @@ body {
 
 }
 .navbar-brand {
+  width: 5.8rem;
   font-size: 5rem;
   font-family: "Edo SZ";
 }
