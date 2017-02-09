@@ -1,0 +1,255 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  background-color: #FFFFFF;
+}
+
+#mysocial {
+  display: none;
+}
+
+.navbar {
+  margin-bottom: 0;
+  box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);
+  height: 5rem;
+  background-color: #25211E;
+
+}
+
+.navbar-brand {
+  font-size: 5rem;
+  font-family: "Edo SZ";
+}
+
+.navbar-inverse .navbar-brand {
+  color: #A68E4A;
+  margin: 0.1rem 0 0 0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0 0;
+}
+
+#nav {
+  margin-bottom: 8rem;
+}
+
+#overview {
+  margin: 4rem;
+}
+
+.myimg {
+  margin-top: 2rem;
+}
+
+.dsp1 {
+  margin-bottom: 0;
+  font-size: 4rem;
+  color: #25211E;
+  font-weight: 100;
+}
+
+.dsp2 {
+  padding-bottom: 2rem;
+  border-bottom-color: #F3F2F2;
+  border-bottom-style: inset;
+}
+
+.dsptype {
+  margin-top: 0;
+  float: left;
+  font-size: 1rem;
+  color: #9B9B9B;
+  font-weight: 200;
+}
+
+.dspdate {
+  margin-top: 0;
+  float: right;
+  font-size: 1rem;
+  color: #9B9B9B;
+  font-weight: 200;
+}
+
+.intro {
+  float: left;
+  clear: left;
+  font-size: 1.5rem;
+  color: #4A4A4A;
+  font-weight: 200;
+}
+
+#inspiration {
+  margin: 4rem;
+}
+
+.title {
+  margin-top: 6rem;
+  font-size: 4rem;
+  color: #25211E;
+  font-weight: 100;
+}
+
+/*#overview {*/
+/*margin: 4rem;*/
+/*}*/
+#prototype {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.para {
+  font-size: 1.5rem;
+  color: #4A4A4A;
+  font-weight: 200;
+}
+
+#testing {
+  margin: 4rem;
+}
+
+#final {
+  margin: 4rem;
+}
+
+#footer {
+  background-color: #25211E;
+  width: auto;
+  height: 6rem;
+}
+#pfooter {
+  color: #EFEFEF;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+@media only screen and (min-width: 850px) {
+  .myimg {
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+
+  .img-responsive:not(.imgtitle){
+    width: 70%;
+    margin: auto;
+  }
+  .navbar {
+    margin-bottom: 0;
+    box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);
+    height: 5rem;
+    background-color: #25211E;
+
+  }
+
+  .navbar-brand {
+    font-size: 5rem;
+    font-family: "Edo SZ";
+  }
+
+  .navbar-inverse .navbar-brand {
+    color: #A68E4A;
+    margin: 0.1rem 0 0 0;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0 0;
+  }
+
+  #mysocial {
+    padding-left: 4rem;
+    margin-top: 1rem;
+    display: block;
+    float: right;
+  }
+
+  #nav {
+    margin-bottom: 8rem;
+  }
+
+  .dsp1 {
+    margin-bottom: 0;
+    font-size: 7rem;
+    color: #25211E;
+    font-weight: 100;
+  }
+
+  .dsp2 {
+    padding-bottom: 2rem;
+    border-bottom-color: #F3F2F2;
+    border-bottom-style: inset;
+  }
+
+  .dsptype {
+    margin-top: 0;
+    float: left;
+    font-size: 2rem;
+    color: #9B9B9B;
+    font-weight: 200;
+  }
+
+  .dspdate {
+    margin-top: 0;
+    float: right;
+    font-size: 2rem;
+    color: #9B9B9B;
+    font-weight: 200;
+  }
+
+  .intro {
+    position: relative;
+    font-size: 2rem;
+    color: #4A4A4A;
+    font-weight: 200;
+  }
+
+  #inspiration {
+    margin: 4rem;
+  }
+
+  .title {
+    margin-top: 6rem;
+    font-size: 7rem;
+    color: #25211E;
+    font-weight: 100;
+  }
+
+  /*#overview {*/
+  /*margin: 4rem;*/
+  /*}*/
+  #prototype {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .proto {
+    width: 70%;
+  }
+
+  .para {
+    font-size: 2rem;
+    color: #4A4A4A;
+    font-weight: 200;
+  }
+
+  #testing {
+    margin: 4rem;
+  }
+
+  #final {
+    margin: 4rem;
+  }
+  #footer {
+    width: auto;
+    background-color: #25211E;
+    height: 6rem;
+    width: 100%;
+
+    position: absolute;
+  }
+  #pfooter {
+    color: #EFEFEF;
+    text-align: center;
+    padding-top: 2rem;
+  }
+}
