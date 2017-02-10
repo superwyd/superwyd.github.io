@@ -8,6 +8,9 @@ body {
   padding-top: 6rem;
 }
 
+#big-about {
+  font-size: 2rem;
+}
 
 .navbar {
   margin-bottom: 0;
@@ -143,6 +146,9 @@ span {
     #portfolio {
       margin-top: 6rem;
       padding-top: 10rem;
+    }
+    #big-about {
+      font-size: 4rem;
     }
     #firstpf {
         margin-top: 0;
