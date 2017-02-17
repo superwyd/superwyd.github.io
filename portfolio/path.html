@@ -74,8 +74,8 @@
   <p class="para">
     Nowadays we have many kinds of websites providing a platform for users to ask questions and share
     experiences such as Quora and Zhihu. But many person around me always complain that if they want
-    to search a specific learning stuff on these sites, the results are sometimes confusing, they still have no
-    idea where to start learning. So Shihao Xia (charlesxsh.github.io) and I want to make a website for users to share learning
+    to search a specific learning process on these sites, the results are sometimes confusing, they still have no
+    idea where to start learning. So Shihao Xia and I want to make a website for users to share learning
     paths step by step. In our website, users can search for the learning path they want and check out the
     results in a much clearer way.
   </p>
@@ -86,21 +86,37 @@
     provided three designs as follows:</p>
   <img class="img-responsive proto" alt="homepageproto.jpg" src="../images/home3.jpg"/>
   <br><br>
-  <p class="para">I did a preference test on 42 testers from different countries, ages, and jobs and let them choose their
-    favorite and most dislike home page design and also give me choosing reason and feedback. The result turned out to be 15
-    testers preferred the first design, 4 testers preferred the second design, and 13 testers preferred the last one. The number
-    of testers who preferred the first one and last one are too close.<br><br>
-    Also in the feedback comments they provided, I realized that those testers who didn’t like the first design mostly because
-    they thought the user-info section floating on the right was discordant; those testers who didn’t like the second design
-    mostly because there were too much information on the homepage and the main part was not straightforward enough; those
-    testers who didn’t like the third design mostly because, although the interface looked clean, the position of searching
-    bar was a little bit discordant. And another two common feedbacks were moving the postion of “DownloadApp”, “About US”
-    and “Contact Us” to the footer of the website avoiding distraction and the position of top three buttons “Ask” “Answer”
-    “Share Path” were not comfortable.<br><br>
-    Based on all the information I gained, I modified my home page with the fourth design and then created the prototype base
-    on it and built its final UI as follows: </p>
+  <p class="para">I did a preference test on 60 testers from different countries, ages, and jobs and let them choose their
+    favorite and most dislike home page design as well as give me choosing reason and feedback. The result turned out to be 29 testers preferred the first design, 4 testers preferred the second design, and 27 testers preferred the last one. The number of testers who preferred the first one and last one are too close.
+    <br><br>
+    Also in the feedback comments they provided, I realized that those testers who didn’t like the first design mostly because they thought the user-info section floating on the right was redundant; those testers who didn’t like the second design mostly because there were too much information on the homepage and the main part was not straightforward enough; those testers who didn’t like the third design mostly because, although the interface looked clean, the position of searching bar was a little bit discordant. And another two common feedbacks were the postion of “DownloadApp”, “About US” and “Contact Us” are distractive and the position of top three buttons “Ask” “Answer” “Share Path” were not comfortable.
+    <br><br>
+    Based on all the information I gained, I modified my home page with the fourth design and then created the prototype base on it and built the mockup as follows: </p>
   <br><br>
   <img style="width: 100%" class="img-responsive" alt="home.jpg" src="../images/home33.png"/>
+  <p class="para"> Once I had the mockup design, I did a testing on my 60 testers again and gained lots of useful feedback
+  from them:<br><br>
+  - Topic tags attract too more attention than the main contents.<br>
+  - Vote feature is inconspicuous.<br>
+  - ReadMore button seems discordant and a little bit mess.<br>
+  - Add button in navigation bar is confusing if don’t drop it down.<br><br>
+  Based on their feedback and my reconsideration, I designed a new version of homepage. Everything looks nice
+  to me except the vote bar. I came up with two kinds of vote bar and did an A/B testing on them as follows:</p>
+  <img style="width: 100%" class="img-responsive proto" alt="homepageproto.jpg" src="../images/home-2.png"/>
+  <p class="para">
+    The result gaining from my testers showed that, 80% of tester who are elder than 25 preferred the right
+    version (B), while the preferrence between left and right was 50% and 50% for testers younger than 25. As the
+    consideration that our website was large age range oriented, I picked the right version.
+    <br><br>
+    When I thought everything all set, I just came up with an idea that, in the current voting design, users can upvote
+    or downvote a path showing their likes or dislikes, but those “dislikes” may hurt the author who spent a long time
+    writing the path. So I remove the “downvote” button.
+  </p>
+  <img class="img-responsive proto single" alt="homepageproto.jpg" src="../images/home-draft3.png"/>
+  <p class="para">
+    The design above is my final design or the homepage and I’m going to go over other pages in the following sections.
+  </p>
+  <br>
 </section>
 <section id="testing">
   <h1 class="title">Trend</h1>
@@ -119,13 +135,13 @@
   <h1 class="title">Path</h1>
   <p class="intro para">Users can not only ask/answer questions like Quora, but also share their own learning path. Here are my
     design for adding path page and path detail page.</p>
-  <img class="img-responsive proto" alt="addpath.jpg" src="../images/add-path.png"/>
+  <img class="img-responsive proto single" alt="addpath.jpg" src="../images/add-path.png"/>
   <br><br>
   <p class="para">As for adding path page, user can type title and step detail to share paths, can click ADD to add one
     more step and click REMOVE to delete the last step.<br><br>
     The path detail looks like:</p>
   <br><br>
-  <img class="img-responsive" alt="path-detail.jpg" src="../images/path-detail.png"/>
+  <img class="img-responsive single" alt="path-detail.jpg" src="../images/path-detail.png"/>
   <br><br>
   <p class="para">
     I put the location-like icon in the front of each step and make the whole path looks more like “step by step”.
