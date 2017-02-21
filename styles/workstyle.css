@@ -108,18 +108,24 @@ body {
   text-align: center;
   padding-top: 2rem;
 }
+span {
+  font-weight: 400;
+}
 
 @media only screen and (min-width: 850px) {
   .myimg {
     margin-left: 6rem;
     margin-top: 2rem;
   }
+  span {
+    font-weight: 400;
+  }
   #overview {
     width: 80%;
     margin: auto;
   }
   .img-responsive:not(.imgtitle){
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
   .navbar {
@@ -189,6 +195,7 @@ body {
   }
   .single {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
   }
 
   .intro {
@@ -205,11 +212,6 @@ body {
     font-weight: 100;
   }
 
-  /*#prototype {*/
-    /*margin-left: 4rem;*/
-    /*margin-right: 4rem;*/
-  /*}*/
-
   .proto {
     width: 70%;
   }
@@ -220,13 +222,6 @@ body {
     font-weight: 200;
   }
 
-  /*#testing {*/
-    /*margin: 4rem;*/
-  /*}*/
-
-  /*#final {*/
-    /*margin: 4rem;*/
-  /*}*/
   #footer {
     width: auto;
     background-color: #25211E;

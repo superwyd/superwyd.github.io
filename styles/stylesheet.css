@@ -98,6 +98,11 @@ img {
   font-weight: normal;
 }
 
+#aboutlist {
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-size: 1rem;
+}
 
 span {
   font-weight: bold;
@@ -152,6 +157,11 @@ span {
     }
     #firstpf {
         margin-top: 0;
+    }
+    #aboutlist {
+      float: left;
+      font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+      font-size: 2rem;
     }
     #about {
       background-color: #EFEFEF;

@@ -72,18 +72,66 @@
 <section id="inspiration" class="middle">
   <h1 class="title">Inspiration</h1>
   <p class="para">
-    Nowadays we have many kinds of websites providing a platform for users to ask questions and share
-    experiences such as Quora and Zhihu. But many person around me always complain that if they want
+    Nowadays we have many kinds of websites providing platforms for users to ask questions and share
+    experiences such as Quora and Zhihu. But many friends around me always complain that if they want
     to search a specific learning process on these sites, the results are sometimes confusing, they still have no
-    idea where to start learning. So Shihao Xia and I want to make a website for users to share learning
-    paths step by step. In our website, users can search for the learning path they want and check out the
+    idea where to start learning.<span> So Shihao Xia and I want to make a website to solve this issue by letting users
+    share learning paths step by step.</span> In Path, users can search for the learning path they want and check out the
     results in a much clearer way.
   </p>
+</section>
+<section class="middle">
+  <h1 class="title">Competitive Analysis</h1>
+  <table class="table table-bordered">
+    <thead style="background-color: #8CBDBE" class="thead-inverse">
+    <tr>
+      <th> </th>
+      <th>Path</th>
+      <th>Quora</th>
+      <th>Zhihu</th>
+    </tr>
+    </thead>
+    <tbody style="background-color: #D1ECEE">
+    <tr>
+      <th scope="row">Overview</th>
+      <td>A question-and-answer site focus on step by step mode. </td>
+      <td>A question-and-answer site where questions are asked, answered, edited and organized by users.</td>
+      <td>A question-and-answer site where questions are asked, answered, edited and organized by only Chinese users.</td>
+    </tr>
+    <tr>
+      <th scope="row">Competitive Adventage</th>
+      <td>Users can find and follow learning path step by step clearly, so that they can learn in a more efficient way.</td>
+      <td>Quora has developed its own algorithm to rank answers, which works similarly to Google PageRank.</td>
+      <td>At the beginning, user registration was mostly invatation-only, with referral needed from a couple hundred of registered users</td>
+    </tr>
+    <tr>
+      <th scope="row">Target Market</th>
+      <td>User who Ask: junior in some area.<br>
+        User who Answer: senior in some area who can provide clear learning path.</td>
+      <td>Real name users with titles and can speak English.</td>
+      <td>High-profile Chinese entrepreneurs and public intellectuals.</td>
+    </tr>
+    <tr>
+      <th scope="row">Weakness</th>
+      <td>Answer should only be step by step, which is also an answer limitation.</td>
+      <td>Only questions which have been considered carefully before post have more chance to be answered.</td>
+      <td>Highest-voting answer may sometimes misleading.</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+<section class="middle">
+  <h1 class="title">Persona</h1>
+  <p class="para">Before starting this project, I did a marketing survey on 60 person from different countries, ages, and jobs and
+    generated the following three personas which can represent our target users most clearly:</p><br><br>
+  <img class="img-responsive single" alt="case1.png" src="../images/case1.png"/><br><br>
+  <img class="img-responsive single" alt="case2.png" src="../images/case2.png"/><br><br>
+  <img class="img-responsive single" alt="case3.png" src="../images/case3.png"/><br><br>
 </section>
 <section id="prototype" class="middle">
   <h1 class="title">HomePage</h1>
   <p class="intro para">While sketching out the wireframe of the home page, I used different color representing different areas and
-    provided three designs as follows:</p>
+    provided three designs as follows:</p><br><br>
   <img class="img-responsive proto" alt="homepageproto.jpg" src="../images/home3.jpg"/>
   <br><br>
   <p class="para">I did a preference test on 60 testers from different countries, ages, and jobs and let them choose their
@@ -93,7 +141,7 @@
     <br><br>
     Based on all the information I gained, I modified my home page with the fourth design and then created the prototype base on it and built the mockup as follows: </p>
   <br><br>
-  <img style="width: 100%" class="img-responsive" alt="home.jpg" src="../images/home33.png"/>
+  <img style="width: 100%" class="img-responsive" alt="home.jpg" src="../images/home33.png"/><br><br>
   <p class="para"> Once I had the mockup design, I did a testing on my 60 testers again and gained lots of useful feedback
   from them:<br><br>
   - Topic tags attract too more attention than the main contents.<br>
@@ -101,8 +149,8 @@
   - ReadMore button seems discordant and a little bit mess.<br>
   - Add button in navigation bar is confusing if don’t drop it down.<br><br>
   Based on their feedback and my reconsideration, I designed a new version of homepage. Everything looks nice
-  to me except the vote bar. I came up with two kinds of vote bar and did an A/B testing on them as follows:</p>
-  <img style="width: 100%" class="img-responsive proto" alt="homepageproto.jpg" src="../images/home-2.png"/>
+  to me except the vote bar. I came up with two kinds of vote bar and did an A/B testing on them as follows:</p><br><br>
+  <img style="width: 100%" class="img-responsive proto" alt="homepageproto.jpg" src="../images/home-2.png"/><br><br>
   <p class="para">
     The result gaining from my testers showed that, 80% of tester who are elder than 25 preferred the right
     version (B), while the preferrence between left and right was 50% and 50% for testers younger than 25. As the
@@ -112,7 +160,7 @@
     or downvote a path showing their likes or dislikes, but those “dislikes” may hurt the author who spent a long time
     writing the path. So I remove the “downvote” button.
   </p>
-  <img class="img-responsive proto single" alt="homepageproto.jpg" src="../images/home-draft3.png"/>
+  <img class="img-responsive proto single" alt="homepageproto.jpg" src="../images/home-draft3.png"/><br><br>
   <p class="para">
     The design above is my final design or the homepage and I’m going to go over other pages in the following sections.
   </p>
