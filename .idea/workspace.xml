@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="61334ed3-6bb0-4351-ad27-75cb4b472837" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/eatpick.html" afterPath="$PROJECT_DIR$/portfolio/eatpick.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/path.html" afterPath="$PROJECT_DIR$/portfolio/path.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/theone.html" afterPath="$PROJECT_DIR$/portfolio/theone.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,43 +40,19 @@
       <file leaf-file-name="usquirrel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/usquirrel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
+            <state relative-caret-position="15">
               <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="path.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/path.html">
+      <file leaf-file-name="eatpick.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/eatpick.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#thead#0;n#table#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tbody#0;n#table#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theone.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3030">
-              <caret line="202" column="34" lean-forward="false" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
-              <folding>
-                <element signature="e#2880#2886#0" expanded="true" />
-                <element signature="e#2898#2904#0" expanded="true" />
-                <element signature="e#3012#3018#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="107" column="66" lean-forward="false" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,10 +126,8 @@
         <option value="$PROJECT_DIR$/app/portfolio/scheduleparser.html" />
         <option value="$PROJECT_DIR$/app/portfolio/usquirrel.html" />
         <option value="$PROJECT_DIR$/app/portfolio/usrelated.html" />
-        <option value="$PROJECT_DIR$/portfolio/eatpick.html" />
         <option value="$PROJECT_DIR$/portfolio/finalrandom.html" />
         <option value="$PROJECT_DIR$/portfolio/scheduleparser.html" />
-        <option value="$PROJECT_DIR$/portfolio/theone.html" />
         <option value="$PROJECT_DIR$/portfolio/usquirrel.html" />
         <option value="$PROJECT_DIR$/portfolio/usrelated.html" />
         <option value="$PROJECT_DIR$/portfolio/icons.html" />
@@ -159,6 +135,8 @@
         <option value="$PROJECT_DIR$/styles/stylesheet.css" />
         <option value="$PROJECT_DIR$/styles/workstyle.css" />
         <option value="$PROJECT_DIR$/portfolio/path.html" />
+        <option value="$PROJECT_DIR$/portfolio/theone.html" />
+        <option value="$PROJECT_DIR$/portfolio/eatpick.html" />
       </list>
     </option>
   </component>
@@ -191,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,8 +213,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,14 +327,15 @@
       <workItem from="1487303420502" duration="1158000" />
       <workItem from="1487609531736" duration="5626000" />
       <workItem from="1487653041028" duration="165000" />
+      <workItem from="1487692867910" duration="939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70995000" />
+    <option name="totallyTimeSpent" value="71934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1243" height="777" extended-state="6" />
+    <frame x="36" y="23" width="1243" height="777" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18905874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -440,13 +419,6 @@
     <entry file="file://$PROJECT_DIR$/app/portfolio/usquirrel.html" />
     <entry file="file://$PROJECT_DIR$/app/portfolio/eatpick.html" />
     <entry file="file://$PROJECT_DIR$/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/portfolio/eatpick.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="114" column="34" lean-forward="false" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/finalrandom.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -473,26 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/usquirrel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="202" column="34" lean-forward="false" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
-          <folding>
-            <element signature="e#2880#2886#0" expanded="true" />
-            <element signature="e#2898#2904#0" expanded="true" />
-            <element signature="e#3012#3018#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,10 +476,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="205" column="106" lean-forward="true" selection-start-line="205" selection-start-column="106" selection-end-line="205" selection-end-column="106" />
+          <folding>
+            <element signature="e#2880#2886#0" expanded="true" />
+            <element signature="e#2898#2904#0" expanded="true" />
+            <element signature="e#3012#3018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/path.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <caret line="164" column="17" lean-forward="false" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -539,6 +503,22 @@
             <element signature="n#style#0;n#img#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#2;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/usquirrel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/eatpick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="107" column="66" lean-forward="false" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
