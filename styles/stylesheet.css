@@ -1,6 +1,11 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 #portfolio {
@@ -145,6 +150,9 @@ span {
 
 /* for computer screen*/
 @media only screen and (min-width: 840px) {
+    html, body {
+      overflow-x: hidden;
+    }
     #thirdpf {
       display: inline;
     }

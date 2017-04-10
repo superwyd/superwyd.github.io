@@ -1,6 +1,11 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 #mysocial {
@@ -113,6 +118,9 @@ span {
 }
 
 @media only screen and (min-width: 850px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .myimg {
     margin-left: 6rem;
     margin-top: 2rem;
