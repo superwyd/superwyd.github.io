@@ -24,7 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="900">
               <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,8 +78,8 @@
       <file leaf-file-name="theone.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="215" column="77" lean-forward="false" selection-start-line="215" selection-start-column="77" selection-end-line="215" selection-end-column="77" />
+            <state relative-caret-position="315">
+              <caret line="204" column="10" lean-forward="true" selection-start-line="204" selection-start-column="10" selection-end-line="204" selection-end-column="10" />
               <folding>
                 <element signature="e#2872#2878#0" expanded="true" />
                 <element signature="e#2890#2896#0" expanded="true" />
@@ -247,8 +247,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,12 +366,13 @@
       <workItem from="1487692867910" duration="2897000" />
       <workItem from="1490217844230" duration="674000" />
       <workItem from="1491795805432" duration="236000" />
-      <workItem from="1493337438583" duration="146000" />
+      <workItem from="1493337438583" duration="174000" />
+      <workItem from="1493337682465" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74948000" />
+    <option name="totallyTimeSpent" value="75014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1243" height="777" extended-state="6" />
@@ -539,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="900">
           <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#nav#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -551,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="215" column="77" lean-forward="false" selection-start-line="215" selection-start-column="77" selection-end-line="215" selection-end-column="77" />
+        <state relative-caret-position="315">
+          <caret line="204" column="10" lean-forward="true" selection-start-line="204" selection-start-column="10" selection-end-line="204" selection-end-column="10" />
           <folding>
             <element signature="e#2872#2878#0" expanded="true" />
             <element signature="e#2890#2896#0" expanded="true" />
