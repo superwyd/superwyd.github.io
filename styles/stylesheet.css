@@ -19,33 +19,48 @@ html {
 
 .navbar {
   margin-bottom: 0;
-  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.50);
   height: 5rem;
-  background-color: #25211E;
+  border-bottom: none;
+  background-color: white;
+  font-family: "Edo SZ";
+  margin: auto;
 
 }
+#icon-img {
+  shadow: 0 0 6rem #4A4A4A;
+  border-radius: 100rem;
+}
 .navbar-brand {
-  width: 5.8rem;
+  width: 7rem;
   font-size: 5rem;
-  font-family: "Edo SZ";
 }
 .navbar-inverse .navbar-brand {
   color: #A68E4A;
   margin: 0.1rem 0 0 0;
 }
 .navbar-inverse .navbar-nav>li>a{
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0.5rem 0 0 0;
+  color: #92CCE1;
+  padding-bottom: -1rem;
 }
 
-
+.navbar-inverse .navbar-nav>.active>a {
+  background: none;
+  color: #8CBDBE;
+  border-bottom: double;
+  border-bottom-width: thick;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #8CBDBE;
+}
 img {
     width: 100%;
     height: auto;
     float: left;
 }
 #firstpf {
-    margin-top: 6rem;
+    padding-top: 5rem;
 }
 
 #about {
