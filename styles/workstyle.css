@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  background-color: #FFFFFF;
+  background-color: #E5EFF1;
   overflow-x: hidden;
 }
 
@@ -67,23 +67,6 @@ html {
   color: #8CBDBE;
 }
 
-/*.navbar {*/
-  /*margin-bottom: 0;*/
-  /*box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);*/
-  /*height: 5rem;*/
-  /*background-color: #25211E;*/
-
-/*}*/
-
-/*.navbar-brand {*/
-  /*font-size: 5rem;*/
-  /*font-family: "Edo SZ";*/
-/*}*/
-
-/*.navbar-inverse .navbar-nav > li > a {*/
-  /*font-size: 1.5rem;*/
-  /*margin: 0.5rem 0 0 0;*/
-/*}*/
 
 #nav {
   margin-bottom: 8rem;
@@ -232,28 +215,6 @@ span {
     color: #8CBDBE;
   }
 
-  /*.navbar {*/
-    /*margin-bottom: 0;*/
-    /*box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);*/
-    /*height: 5rem;*/
-    /*background-color: #25211E;*/
-  /*}*/
-
-  /*.navbar-brand {*/
-    /*font-size: 5rem;*/
-    /*font-family: "Edo SZ";*/
-  /*}*/
-
-  /*.navbar-inverse .navbar-brand {*/
-    /*color: #A68E4A;*/
-    /*margin: 0.1rem 0 0 0;*/
-  /*}*/
-
-  /*.navbar-inverse .navbar-nav > li > a {*/
-    /*font-size: 1.5rem;*/
-    /*margin: 0.5rem 0 0 0;*/
-  /*}*/
-
   #mysocial {
     padding-left: 4rem;
     margin-top: 1rem;
@@ -297,10 +258,10 @@ span {
     width: 68%;
     margin: auto;
   }
-  .single {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 90%;
-  }
+  /*.single {*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    /*width: 90%;*/
+  /*}*/
 
   .intro {
     position: relative;

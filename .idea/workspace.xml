@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61334ed3-6bb0-4351-ad27-75cb4b472837" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/usquirrel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/usrelated.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/eatpick.html" afterPath="$PROJECT_DIR$/portfolio/eatpick.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/finalrandom.html" afterPath="$PROJECT_DIR$/portfolio/finalrandom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/icons.html" afterPath="$PROJECT_DIR$/portfolio/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/path.html" afterPath="$PROJECT_DIR$/portfolio/path.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/scheduleparser.html" afterPath="$PROJECT_DIR$/portfolio/scheduleparser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/theone.html" afterPath="$PROJECT_DIR$/portfolio/theone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/stylesheet.css" afterPath="$PROJECT_DIR$/styles/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/workstyle.css" afterPath="$PROJECT_DIR$/styles/workstyle.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -55,61 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eatpick.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/eatpick.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="121" column="14" lean-forward="false" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finalrandom.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/finalrandom.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="78" column="14" lean-forward="false" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icons.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/icons.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scheduleparser.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/scheduleparser.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="theone.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workstyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/workstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2835">
-              <caret line="195" column="3" lean-forward="false" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
+            <state relative-caret-position="3900">
+              <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="263" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -118,8 +57,8 @@
       <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="241" column="25" lean-forward="false" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -168,13 +107,13 @@
         <option value="$PROJECT_DIR$/portfolio/usrelated.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/stylesheet.css" />
-        <option value="$PROJECT_DIR$/styles/workstyle.css" />
         <option value="$PROJECT_DIR$/portfolio/path.html" />
         <option value="$PROJECT_DIR$/portfolio/scheduleparser.html" />
         <option value="$PROJECT_DIR$/portfolio/theone.html" />
         <option value="$PROJECT_DIR$/portfolio/icons.html" />
         <option value="$PROJECT_DIR$/portfolio/finalrandom.html" />
         <option value="$PROJECT_DIR$/portfolio/eatpick.html" />
+        <option value="$PROJECT_DIR$/styles/workstyle.css" />
       </list>
     </option>
   </component>
@@ -371,12 +310,12 @@
       <workItem from="1493337438583" duration="174000" />
       <workItem from="1493337682465" duration="38000" />
       <workItem from="1495299577727" duration="1785000" />
-      <workItem from="1495406489966" duration="5858000" />
+      <workItem from="1495406489966" duration="6450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82657000" />
+    <option name="totallyTimeSpent" value="83249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1239" height="777" extended-state="0" />
@@ -489,22 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/workstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="195" column="3" lean-forward="false" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/path.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -549,6 +472,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="121" column="14" lean-forward="false" selection-start-line="121" selection-start-column="14" selection-end-line="121" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="241" column="25" lean-forward="false" selection-start-line="241" selection-start-column="25" selection-end-line="241" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/workstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="263" selection-end-column="5" />
           <folding />
         </state>
       </provider>
