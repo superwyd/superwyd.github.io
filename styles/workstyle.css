@@ -19,26 +19,71 @@ html {
 
 .navbar {
   margin-bottom: 0;
-  box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);
   height: 5rem;
-  background-color: #25211E;
-
-}
-
-.navbar-brand {
-  font-size: 5rem;
+  border-bottom: none;
+  background-color: white;
   font-family: "Edo SZ";
+  margin: auto;
+}
+#icon-img {
+  shadow: 0 0 6rem #4A4A4A;
+  border-radius: 100rem;
+}
+.navbar-brand {
+  width: 7rem;
+  font-size: 5rem;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #A68E4A;
-  margin: 0.1rem 0 0 0;
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #92CCE1;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-  font-size: 1.5rem;
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #8CBDBE;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #92CCE1;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  font-size: 2rem;
   margin: 0.5rem 0 0 0;
+  color: #92CCE1;
+  padding-bottom: -1rem;
 }
+
+.navbar-inverse .navbar-nav>.active>a {
+  background: none;
+  color: #8CBDBE;
+  border-bottom: double;
+  border-bottom-width: thick;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #8CBDBE;
+}
+
+/*.navbar {*/
+  /*margin-bottom: 0;*/
+  /*box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);*/
+  /*height: 5rem;*/
+  /*background-color: #25211E;*/
+
+/*}*/
+
+/*.navbar-brand {*/
+  /*font-size: 5rem;*/
+  /*font-family: "Edo SZ";*/
+/*}*/
+
+/*.navbar-inverse .navbar-nav > li > a {*/
+  /*font-size: 1.5rem;*/
+  /*margin: 0.5rem 0 0 0;*/
+/*}*/
 
 #nav {
   margin-bottom: 8rem;
@@ -136,27 +181,78 @@ span {
     width: 90%;
     margin: auto;
   }
+
   .navbar {
     margin-bottom: 0;
-    box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);
     height: 5rem;
-    background-color: #25211E;
-  }
-
-  .navbar-brand {
-    font-size: 5rem;
+    border-bottom: none;
+    background-color: white;
     font-family: "Edo SZ";
+    margin: auto;
+  }
+  #icon-img {
+    shadow: 0 0 6rem #4A4A4A;
+    border-radius: 100rem;
+  }
+  .navbar-brand {
+    width: 7rem;
+    font-size: 5rem;
   }
 
-  .navbar-inverse .navbar-brand {
-    color: #A68E4A;
-    margin: 0.1rem 0 0 0;
+  .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #92CCE1;
   }
 
-  .navbar-inverse .navbar-nav > li > a {
-    font-size: 1.5rem;
+  .navbar-inverse .navbar-toggle:hover {
+    background-color: #8CBDBE;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: #92CCE1;
+  }
+
+  .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  .navbar-inverse .navbar-nav>li>a{
+    font-size: 2rem;
     margin: 0.5rem 0 0 0;
+    color: #92CCE1;
+    padding-bottom: -1rem;
   }
+
+  .navbar-inverse .navbar-nav>.active>a {
+    background: none;
+    color: #8CBDBE;
+    border-bottom: double;
+    border-bottom-width: thick;
+  }
+  .navbar-inverse .navbar-nav>li>a:hover {
+    color: #8CBDBE;
+  }
+
+  /*.navbar {*/
+    /*margin-bottom: 0;*/
+    /*box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.50);*/
+    /*height: 5rem;*/
+    /*background-color: #25211E;*/
+  /*}*/
+
+  /*.navbar-brand {*/
+    /*font-size: 5rem;*/
+    /*font-family: "Edo SZ";*/
+  /*}*/
+
+  /*.navbar-inverse .navbar-brand {*/
+    /*color: #A68E4A;*/
+    /*margin: 0.1rem 0 0 0;*/
+  /*}*/
+
+  /*.navbar-inverse .navbar-nav > li > a {*/
+    /*font-size: 1.5rem;*/
+    /*margin: 0.5rem 0 0 0;*/
+  /*}*/
 
   #mysocial {
     padding-left: 4rem;
