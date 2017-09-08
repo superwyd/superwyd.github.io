@@ -8,201 +8,200 @@
     <meta name="keywords" content="yudi wang, yudi, web, website, websites, web design, design, graphic design,
     responsive, mobile, mobile design, development, responsive development, web development,
     unique, fun, developer, typography, hand drawn, illustration, personal, blog, portfolio,icons">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/example.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/stylesheet.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <script src="/scripts/main.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 </head>
 <body>
-<section id="home">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wydNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">
-                  <img id="icon-img" src="./images/icon@2x.png" width="10%">
-                </a>
-            </div>
-            <div id="mysocial">
-              <a style="color: #9d9d9d" class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/yudi.wang.75">
-                <span class="fa fa-facebook-square fa-2x"></span>
-              </a>
-              <a style="color: #9d9d9d" class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/superwyd/">
-                <span class="fa fa-instagram fa-2x"></span>
-              </a>
-              <a style="color: #9d9d9d" class="btn btn-social-icon btn-dribbble" href="https://www.dribbble.com/superwyd/">
-                <span class="fa fa-dribbble fa-2x"></span>
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="wydNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+  <div id="wrapper">
+    <div id="home-introduction">
+      <div id="title-main">Yudi Wang</div>
+      <div class="row" id="about">
+        <div class="col about-section">
+          <div class="about-title" id="icode"><i class="fa fa-code" aria-hidden="true"></i> I CODE</div>
+          <div class="about-content">I’m proficient at web development and rapidly prototyping.</div>
         </div>
-    </nav>
-    <div class="main-display">
-        <img id="firstpf" src="./images/home-main.png"/>
+        <div class="col about-section">
+          <div class="about-title" id="idesign"><i class="fa fa-diamond" aria-hidden="true"></i> I DESIGN</div>
+          <div class="about-content">My design is always clean, simple and fun.</div>
+        </div>
+        <div class="col about-section">
+          <div class="about-title" id="iwrite"><i class="fa fa-pencil" aria-hidden="true"></i> I WRITE</div>
+          <div class="about-content">I enjoy capturing every impressed moment with words.</div>
+        </div>
+      </div>
+      <form id="btn-portfolio" action="./portfolio.html">
+        <button type="submit" class="btn btn-outline-primary">View My Works</button>
+      </form>
+      <div id="mysocial">
+        <a style="color: #9d9d9d" class="btn btn-social-icon btn-facebook" href="mailto:halawyd@gmail.com">
+          <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+        </a>
+        <a style="color: #9d9d9d" class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/yudi.wang.75">
+          <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        </a>
+        <a style="color: #9d9d9d" class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/superwyd/">
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </a>
+        <a style="color: #9d9d9d" class="btn btn-social-icon btn-dribbble" href="https://www.dribbble.com/superwyd/">
+          <i class="fa fa-dribbble fa-2x" aria-hidden="true"></i>
+        </a>
+        <a style="color: #9d9d9d" class="btn btn-social-icon btn-dribbble" href="https://www.linkedin.com/in/yudi-wang/">
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p id="home-note">Made with heart by Yudi Wang.<i class="em em-heart_eyes_cat"></i></p>
     </div>
-</section>
-<section id="about" class="row container-fluid">
-  <div class="col-sm-5" id="about-left">
-    <img class="img-responsive" id="secpf" src="./images/FullSizeRender.jpg"/>
+    <div id="container home-background"></div>
   </div>
-  <div class="col-sm-7" id="about-right">
-    <p id="intro">
-      <span id="big-about">About Yudi</span>
-    <ul id="aboutlist">
-      <li>A front-end developer and a UI/UX designer</li><br>
-      <li>A motivated and ambitious woman looking to grow her career</li><br>
-      <li>Grew up in China and currently wrapping up her bachelor of science in the US.</li><br>
-      <li>Enjoys dancing, singing, reading/writing, travelling, photography and playing piano in her leisure time.</li><br>
-    </ul>
-    </p>
-  </div>
-</section>
-<section id="portfolio" class="container-fluid">
-  <a href="./portfolio/path.html">
-    <div id="path" class="row mytable">
-      <div id="pathimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/path-home.png" width="900"/>
-      </div>
-      <div id="pathdsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">Path</h1>
-        <h2 class="dsp2">Web Design/Development<br>
-          <br>Sketch App, HTML, CSS, TypeScript, Angular.js
-        </h2>
-      </div>
-    </div>
-  </a>
-  <a href="./portfolio/theone.html">
-    <div id="theone" class="row mytable">
-      <div id="cdsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">TheOne</h1>
-        <h2 class="dsp2">iOS App Design<br>
-          <br>Sketch App</h2>
-      </div>
-      <div id="cimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/theone.png"/>
-      </div>
-    </div>
-  </a>
-  <a href="./portfolio/eatpick.html">
-    <div id="eatpick" class="row mytable">
-      <div id="epimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/eatp.png"/>
-      </div>
-      <div id="epdsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">EatPick</h1>
-        <h2 class="dsp2">iOS App Design<br>
-          <br>Sketch App</h2>
-      </div>
-    </div>
-  </a>
-  <a href="./portfolio/scheduleparser.html">
-    <div id="scheduleParser" class="row mytable">
-      <div id="spdsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">ScheduleParser</h1>
-        <h2 class="dsp2">iOS App Design<br>
-          <br>Sketch App, Origami Studio
-        </h2>
-      </div>
-      <div id="spimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/sched.png"/>
-      </div>
-    </div>
-  </a>
-  <a href="./portfolio/finalrandom.html">
-    <div id="final" class="row mytable">
-      <div id="fimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/final.png"/>
-      </div>
-      <div id="fdsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">Final Randoms</h1>
-        <h2 class="dsp2">Graphic Design<br>
-          <br>Sketch App
-        </h2>
-      </div>
-    </div>
-  </a>
-  <a href="./portfolio/icons.html">
-    <div id="myicon" class="row mytable">
-      <div id="icondsp" class="col-sm-5 mydsp">
-        <h1 class="dsp1">Icons</h1>
-        <h2 class="dsp2">Icon Design<br>
-          <br>Sketch App
-        </h2>
-      </div>
-      <div id="iconimg" class="col-sm-5 myimg">
-        <img class="img-responsive" src="./images/icon.png"/>
-      </div>
-    </div>
-  </a>
-</section>
+  <script src="./scripts/sketch.js"></script>
+  <script>
 
-<section id="contact" class="row container-fluid">
-  <div id="thirdpf" class="col-sm-4">
-    <img class="img-responsive" src="./images/IMG_0120@2x.JPG">
-  </div>
-  <div class="mycontact col-sm-6">
-    <p id="contact-title">Interested in <span>Hiring Me ?</span></p>
-    <br>
-    <form id="contact-form" action="mailto:ywang8@wpi.edu" enctype="text/plain">
-      <input type="submit" class="btn btn-success btn-send" value="Send me an Email">
-    </form>
-    <br>
-    <a href="https://www.facebook.com/yudi.wang.75" class="btn btn-primary" role="button">Add me via Facebook</a>
-    <br><br>
-    <a href="http://www.dribbble.com/superwyd" class="btn btn-warning" role="button" id="dribbble-social">View my works in Dribbble</a>
-    <br><br>
-    <a href="https://www.linkedin.com/in/yudi-wang" class="btn btn-info" role="button" id="linkedin-social">Connect me via LinkedIn</a>
-    <br><br>
-    <a href="http://weibo.com/setsunaaaa" class="btn btn-warning" role="button">See me in Sina Weibo</a>
-  </div>
-</section>
-<section id="footer">
-  <div id="pfooter">~ Handmade by Yudi Wang with Bootstrap ~</div>
-</section>
+    // ----------------------------------------
+    // Particle
+    // ----------------------------------------
 
+    function Particle( x, y, radius ) {
+      this.init( x, y, radius );
+    }
 
-<script>
-  $(document).ready(function(){
-    // Add scrollspy to <body>
-    $('body').scrollspy({target: ".navbar", offset: 50});
+    Particle.prototype = {
 
-    // Add smooth scrolling on all links inside the navbar
-    $("#wydNavbar a").on('click', function(event) {
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
+      init: function( x, y, radius ) {
 
-        // Store hash
-        var hash = this.hash;
+        this.alive = true;
 
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
+        this.radius = radius || 10;
+        this.wander = 0.15;
+        this.theta = random( TWO_PI );
+        this.drag = 0.92;
+        this.color = '#fff';
 
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      }  // End if
+        this.x = x || 0.0;
+        this.y = y || 0.0;
+
+        this.vx = 0.0;
+        this.vy = 0.0;
+      },
+
+      move: function() {
+
+        this.x += this.vx;
+        this.y += this.vy;
+
+        this.vx *= this.drag;
+        this.vy *= this.drag;
+
+        this.theta += random( -0.5, 0.5 ) * this.wander;
+        this.vx += sin( this.theta ) * 0.1;
+        this.vy += cos( this.theta ) * 0.1;
+
+        this.radius *= 0.96;
+        this.alive = this.radius > 0.5;
+      },
+
+      draw: function( ctx ) {
+
+        ctx.beginPath();
+        ctx.arc( this.x, this.y, this.radius, 0, TWO_PI );
+        ctx.fillStyle = this.color;
+        ctx.fill();
+      }
+    };
+
+    // ----------------------------------------
+    // Example
+    // ----------------------------------------
+
+    var MAX_PARTICLES = 280;
+    var COLOURS = [ '#F2385A', '#F5A503', '#E9F1DF', '#4AD9D9', '#36B1BF', '#FF2D00', '#F9D423' ];
+
+    var particles = [];
+    var pool = [];
+
+    var demo = Sketch.create({
+      container: document.getElementById( 'container' ),
+      retina: 'auto'
     });
-  });
-</script>
+
+    demo.setup = function() {
+
+      // Set off some initial particles.
+      var i, x, y;
+
+      for ( i = 0; i < 20; i++ ) {
+        x = ( demo.width * 0.5 ) + random( -100, 100 );
+        y = ( demo.height * 0.5 ) + random( -100, 100 );
+        demo.spawn( x, y );
+      }
+    };
+
+    demo.spawn = function( x, y ) {
+
+      var particle, theta, force;
+
+      if ( particles.length >= MAX_PARTICLES )
+        pool.push( particles.shift() );
+
+      particle = pool.length ? pool.pop() : new Particle();
+      particle.init( x, y, random( 5, 40 ) );
+
+      particle.wander = random( 0.5, 2.0 );
+      particle.color = random( COLOURS );
+      particle.drag = random( 0.9, 0.99 );
+
+      theta = random( TWO_PI );
+      force = random( 2, 8 );
+
+      particle.vx = sin( theta ) * force;
+      particle.vy = cos( theta ) * force;
+
+      particles.push( particle );
+    };
+
+    demo.update = function() {
+
+      var i, particle;
+
+      for ( i = particles.length - 1; i >= 0; i-- ) {
+
+        particle = particles[i];
+
+        if ( particle.alive ) particle.move();
+        else pool.push( particles.splice( i, 1 )[0] );
+      }
+    };
+
+    demo.draw = function() {
+
+      demo.globalCompositeOperation  = 'lighter';
+
+      for ( var i = particles.length - 1; i >= 0; i-- ) {
+        particles[i].draw( demo );
+      }
+    };
+
+    demo.mousemove = function() {
+
+      var particle, theta, force, touch, max, i, j, n;
+
+      for ( i = 0, n = demo.touches.length; i < n; i++ ) {
+
+        touch = demo.touches[i], max = random( 1, 4 );
+        for ( j = 0; j < max; j++ ) {
+          demo.spawn( touch.x, touch.y );
+        }
+
+      }
+    };
+  </script>
 </body>
 </html>

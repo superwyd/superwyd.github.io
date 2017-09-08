@@ -1,0 +1,493 @@
+@media screen and (max-width: 500px) /* Mobile */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .table {
+    border-collapse: separate;
+  }
+
+  .table td, .table th {
+    padding:0;
+  }
+
+  .project-preview {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-project {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #preview-title {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #projects {
+    margin: 4rem 0 0 0;
+  }
+
+  .row {
+    padding: 4rem 0;
+  }
+
+  #path {
+    background-color: #A9D1E0;
+  }
+
+  #img-theone{
+    margin-top: -4rem;
+    margin-right: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  #img-path {
+    width: 100%;
+  }
+
+  #img-eatpick {
+    width: 70%;
+    height: auto;
+    margin: 0 3rem;
+  }
+
+
+  #img-kalo {
+    width: 100%;
+    margin: 1rem 0;
+    padding-right: 4rem;
+  }
+  .onepage-wrapper .section {
+    width: 110%;
+  }
+  #theone {
+    background-color: #FFC7D0;
+  }
+
+  #eatpick {
+    background-color: #FFFDEC;
+  }
+  #kalo {
+    background-color: #33C6D8;
+  }
+  #txt-path, #txt-eatpick, #txt-theone {
+    padding: 2rem;
+  }
+  #txt-kalo {
+    padding: 2rem 2rem 0 2rem;
+  }
+  #txt-kalo {
+    font-size: 1rem;
+  }
+
+  .work-dsp, .work-title {
+    color: #515151;
+  }
+
+  .work-title {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  #kalo-title {
+    font-size: 2rem;
+  }
+  .work-dsp {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  #kalo-dsp {
+    font-size: 1rem;
+  }
+  #kalo-list {
+    font-size: 0.8rem;
+  }
+  .btn-outline-primary {
+    color: #515151;
+    border-color: #515151;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #515151;
+    border-color: #515151;
+  }
+
+}
+
+@media only screen
+and (min-width: 501px)
+and (max-width: 1024px) and (orientation: portrait) /* Tablet */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .table {
+    border-collapse: separate;
+  }
+
+  .table td, .table th {
+    padding:0;
+  }
+
+  .project-preview {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-project {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #preview-title {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #projects {
+    margin: 4rem 0 0 0;
+  }
+
+  .row {
+    padding: 4rem 0;
+  }
+
+  #path {
+    background-color: #A9D1E0;
+  }
+
+  #img-theone{
+    margin-top: 8rem;
+    margin-left: -3rem;
+    width: 100%;
+    height: auto;
+  }
+  #img-path{
+    margin-top: 4rem;
+  }
+
+  #img-eatpick {
+    width: 130%;
+    margin-left: -12rem;
+    height: auto;
+  }
+
+
+  #img-kalo {
+    width: 180%;
+    margin-left: -20rem;
+  }
+  .onepage-wrapper .section {
+    width: 110%;
+  }
+  #theone {
+    background-color: #FFC7D0;
+  }
+
+  #eatpick {
+    background-color: #FFFDEC;
+  }
+  #kalo {
+    background-color: #33C6D8;
+  }
+  #txt-path, #txt-eatpick {
+    padding: 12rem 0 4rem 2rem;
+  }
+
+  #txt-kalo {
+    padding: 30rem 0 4rem 2rem;
+  }
+  #txt-theone {
+    padding: 20rem 0 2rem 2rem;
+  }
+
+  .work-dsp, .work-title {
+    color: #515151;
+  }
+
+  .work-title {
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  .work-dsp {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+
+  .btn-outline-primary {
+    color: #515151;
+    border-color: #515151;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #515151;
+    border-color: #515151;
+  }
+
+}
+
+@media only screen
+and (min-width: 501px)
+and (max-width: 1024px) and (orientation: landscape) /* Tablet */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .table {
+    border-collapse: separate;
+  }
+
+  .table td, .table th {
+    padding:0;
+  }
+
+  .project-preview {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-project {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #preview-title {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #projects {
+    margin: 4rem 0 0 0;
+  }
+
+  .row {
+    padding: 4rem 0;
+  }
+
+  #path {
+    background-color: #A9D1E0;
+  }
+
+  #img-theone{
+    margin-top: 4rem;
+    margin-right: 2rem;
+    width: 80%;
+    height: auto;
+  }
+  #img-path {
+    width: 90%;
+    margin: 10rem 0;
+  }
+
+  #img-eatpick {
+    width: 80%;
+    height: auto;
+  }
+
+
+  #img-kalo {
+    width: 100%;
+    margin: 1rem 0;
+    padding-right: 4rem;
+  }
+  .onepage-wrapper .section {
+    width: 110%;
+  }
+  #theone {
+    background-color: #FFC7D0;
+  }
+
+  #eatpick {
+    background-color: #FFFDEC;
+  }
+  #kalo {
+    background-color: #33C6D8;
+  }
+  #txt-path, #txt-eatpick {
+    padding: 12rem 0 4rem 2rem;
+  }
+  #txt-kalo {
+    padding: 4rem 0 4rem 2rem;
+  }
+
+  #txt-theone {
+    padding: 16rem 0 2rem 2rem;
+  }
+
+  .work-dsp, .work-title {
+    color: #515151;
+  }
+
+  .work-title {
+    font-weight: 600;
+    font-size: 4rem;
+  }
+
+  .work-dsp {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  .btn-outline-primary {
+    color: #515151;
+    border-color: #515151;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #515151;
+    border-color: #515151;
+  }
+
+}
+
+@media only screen and (min-width: 1025px)
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .table {
+    border-collapse: separate;
+  }
+
+  .table td, .table th {
+    padding:0;
+  }
+
+  .project-preview {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-project {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #preview-title {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  #projects {
+    margin: 4rem 0 0 0;
+  }
+
+  .row {
+    padding: 4rem 0;
+  }
+
+  #path {
+    background-color: #A9D1E0;
+  }
+
+  #img-theone{
+    margin-top: 2rem;
+    padding-left: 2rem;
+    width: 70%;
+    height: auto;
+  }
+  #img-path {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  #img-eatpick {
+    width: 80%;
+    height: auto;
+  }
+
+
+  #img-kalo {
+    width: 100%;
+    margin: 1rem 0;
+    padding-right: 4rem;
+  }
+  .onepage-wrapper .section {
+    width: 110%;
+  }
+  #theone {
+    background-color: #FFC7D0;
+  }
+
+  #eatpick {
+    background-color: #FFFDEC;
+  }
+  #kalo {
+    background-color: #8CDBB4;
+  }
+  #txt-path, #txt-eatpick, #txt-theone {
+    padding: 12rem 0 4rem 4rem;
+  }
+  #txt-kalo {
+    padding: 4rem;
+    /*background-color: #EF3554;*/
+  }
+
+  .work-dsp, .work-title {
+    color: #515151;
+  }
+
+  .work-title {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+
+  .work-dsp {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .btn-outline-primary {
+    color: #515151;
+    border-color: #515151;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #515151;
+    border-color: #515151;
+  }
+
+}
