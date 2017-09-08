@@ -41,7 +41,7 @@
   }
 
   .row {
-    padding: 4rem 0;
+    padding: 1rem 0;
   }
 
   #path {
@@ -51,7 +51,7 @@
   #img-theone{
     margin-top: -4rem;
     margin-right: 1rem;
-    width: 100%;
+    width: 80%;
     height: auto;
   }
   #img-path {
@@ -67,7 +67,7 @@
 
   #img-kalo {
     width: 100%;
-    margin: 1rem 0;
+    margin: 0;
     padding-right: 4rem;
   }
   .onepage-wrapper .section {
@@ -88,9 +88,7 @@
   }
   #txt-kalo {
     padding: 2rem 2rem 0 2rem;
-  }
-  #txt-kalo {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .work-dsp, .work-title {
@@ -99,20 +97,20 @@
 
   .work-title {
     font-weight: 600;
-    font-size: 3rem;
-  }
-  #kalo-title {
     font-size: 2rem;
   }
-  .work-dsp {
-    font-weight: 300;
-    font-size: 1.5rem;
+  #kalo-title {
+    font-size: 1.6rem;
   }
-  #kalo-dsp {
+  .work-dsp {
+    font-weight: 400;
     font-size: 1rem;
   }
-  #kalo-list {
+  #kalo-dsp {
     font-size: 0.8rem;
+  }
+  #kalo-list {
+    font-size: 0.5rem;
   }
   .btn-outline-primary {
     color: #515151;
