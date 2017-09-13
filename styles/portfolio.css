@@ -36,10 +36,6 @@
     padding-bottom: 2rem;
   }
 
-  #projects {
-    margin: 4rem 0 0 0;
-  }
-
   .row {
     padding: 1rem 0;
   }
@@ -72,6 +68,10 @@
   }
   .onepage-wrapper .section {
     width: 110%;
+  }
+  #projects {
+    width: 100%;
+    margin: 4rem 0 0 0;
   }
   #theone {
     background-color: #FFC7D0;
@@ -121,7 +121,9 @@
     background-color: #515151;
     border-color: #515151;
   }
-
+  .ph {
+    padding: 0;
+  }
 }
 
 @media only screen
@@ -164,10 +166,6 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
     padding-bottom: 2rem;
   }
 
-  #projects {
-    margin: 4rem 0 0 0;
-  }
-
   .row {
     padding: 4rem 0;
   }
@@ -199,6 +197,10 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
   }
   .onepage-wrapper .section {
     width: 110%;
+  }
+  #projects {
+    width: 100%;
+    margin: 4rem 0 0 0;
   }
   #theone {
     background-color: #FFC7D0;
@@ -244,7 +246,9 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
     background-color: #515151;
     border-color: #515151;
   }
-
+  .ph {
+    padding: 0;
+  }
 }
 
 @media only screen
@@ -286,11 +290,6 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     text-align: center;
     padding-bottom: 2rem;
   }
-
-  #projects {
-    margin: 4rem 0 0 0;
-  }
-
   .row {
     padding: 4rem 0;
   }
@@ -323,6 +322,10 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
   }
   .onepage-wrapper .section {
     width: 110%;
+  }
+  #projects {
+    width: 100%;
+    margin: 4rem 0 0 0;
   }
   #theone {
     background-color: #FFC7D0;
@@ -368,7 +371,9 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     background-color: #515151;
     border-color: #515151;
   }
-
+  .ph {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 1025px)
@@ -409,10 +414,6 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     padding-bottom: 2rem;
   }
 
-  #projects {
-    margin: 4rem 0 0 0;
-  }
-
   .row {
     padding: 4rem 0;
   }
@@ -445,6 +446,10 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
   }
   .onepage-wrapper .section {
     width: 110%;
+  }
+  #projects {
+    width: 100%;
+    margin: 4rem 0 0 0;
   }
   #theone {
     background-color: #FFC7D0;
@@ -487,5 +492,7 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     background-color: #515151;
     border-color: #515151;
   }
-
+  .ph {
+    padding: 0;
+  }
 }
