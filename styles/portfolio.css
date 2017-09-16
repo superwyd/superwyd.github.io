@@ -81,7 +81,7 @@
     background-color: #FFFDEC;
   }
   #kalo {
-    background-color: #33C6D8;
+    background-color: #009FE5;
   }
   #txt-path, #txt-eatpick, #txt-theone {
     padding: 2rem;
@@ -210,7 +210,7 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
     background-color: #FFFDEC;
   }
   #kalo {
-    background-color: #33C6D8;
+    background-color: #009FE5;
   }
   #txt-path, #txt-eatpick {
     padding: 12rem 0 4rem 2rem;
@@ -335,7 +335,7 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     background-color: #FFFDEC;
   }
   #kalo {
-    background-color: #33C6D8;
+    background-color: #009FE5;
   }
   #txt-path, #txt-eatpick {
     padding: 12rem 0 4rem 2rem;
@@ -459,7 +459,7 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     background-color: #FFFDEC;
   }
   #kalo {
-    background-color: #8CDBB4;
+    background-color: #009FE5;
   }
   #txt-path, #txt-eatpick, #txt-theone {
     padding: 12rem 0 4rem 4rem;
