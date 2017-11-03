@@ -9,7 +9,9 @@
     overflow-x: hidden;
     font-size: 16px;
   }
-
+  .bg-faded {
+    background: none;
+  }
   #wrapper {
     position: relative;
   }
@@ -96,8 +98,17 @@
     float: left;
   }
 
-  #mysocial {
-    display: none;
+  #footer {
+    margin: 3rem 0 0 2rem;
+    background: none;
+    height: auto;
+    border-top: 1px solid #ebebeb;
+
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
   }
 }
 @media only screen
@@ -112,6 +123,10 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */ {
   html {
     overflow-x: hidden;
     font-size: 16px;
+  }
+  .bg-faded {
+    background: none;
+    float: right;
   }
   #icode {
     color: #33C6D8;
@@ -178,10 +193,11 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */ {
   }
 
   #home-note {
-    margin-top: 4rem;
-    font-size: 0.8rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 300;
     color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
   }
 
   #icon-img {
@@ -202,10 +218,17 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */ {
     float: left;
   }
 
-  #mysocial {
-    margin: 3rem 0 0 0;
+  #footer {
+    margin: 20rem 0 0 2rem;
     background: none;
     height: auto;
+    border-top: 1px solid #ebebeb;
+
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
   }
 }
 
@@ -221,6 +244,10 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
   html {
     overflow-x: hidden;
     font-size: 16px;
+  }
+  .bg-faded {
+    background: none;
+    float: right;
   }
   #icode {
     color: #33C6D8;
@@ -291,12 +318,12 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
   }
 
   #home-note {
-    margin-top: 3rem;
-    font-size: 0.8rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 300;
     color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
   }
-
 
   #icon-img {
     float: left;
@@ -316,10 +343,17 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
     float: left;
   }
 
-  #mysocial {
-    margin: 3rem 0 0 0;
+  #footer {
+    margin: 16rem 0 0 2rem;
     background: none;
     height: auto;
+    border-top: 1px solid #ebebeb;
+
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
   }
 }
 
@@ -335,6 +369,9 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
   html {
     overflow-x: hidden;
     font-size: 16px;
+  }
+  .bg-faded {
+    background: none;
   }
   #icode {
     color: #33C6D8;
@@ -405,10 +442,11 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
   }
 
   #home-note {
-    margin-top: 3rem;
-    font-size: 0.8rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 300;
     color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
   }
 
 
@@ -430,9 +468,16 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */ {
     float: left;
   }
 
-  #mysocial {
-    margin: 3rem 0 0 0;
+  #footer {
+    margin: 7rem 0 0 4rem;
     background: none;
     height: auto;
+    border-top: 1px solid #ebebeb;
+
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
   }
 }
