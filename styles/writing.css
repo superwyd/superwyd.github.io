@@ -1,0 +1,282 @@
+@media screen and (max-width: 500px) /* Mobile */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .bg-faded {
+    background: none;
+    float: right;
+  }
+  .row, .col-sm-6 {
+    padding: 0;
+  }
+  #footer {
+    margin: 4rem 0 0 0;
+    background: none;
+    height: auto;
+    border-top: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  #home-note {
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  h1 {
+    padding: 6rem 0 0 0;
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  #content {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+  .words {
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+  #note {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #9B9B9B;
+  }
+}
+
+@media only screen
+and (min-width: 501px)
+and (max-width: 1024px) and (orientation: portrait) /* Tablet */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .bg-faded {
+    background-color: #FFFFFF;
+    float: right;
+  }
+  .row, .col-sm-6 {
+    padding: 0;
+  }
+  #footer {
+    margin: 4rem 0 0 4rem;
+    background: none;
+    height: auto;
+    border-top: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  #home-note {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  .words {
+    font-size: 0.7rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+  h1 {
+    padding: 8rem 0 1rem 0;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 0.6rem;
+    padding: 1rem 2rem;
+  }
+  #content {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8rem;
+  }
+  #note {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #9B9B9B;
+  }
+}
+
+@media only screen
+and (min-width: 501px)
+and (max-width: 1024px) and (orientation: landscape) /* Tablet */
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .bg-faded {
+    background-color: #FFFFFF;
+    float: right;
+  }
+  .row, .col-sm-6 {
+    padding: 0;
+  }
+  #footer {
+    margin: 4rem 0 0 4rem;
+    background: none;
+    height: auto;
+    border-top: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  #home-note {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  .words {
+    font-size: 0.7rem;
+    padding: 0.7rem;
+  }
+  h1 {
+    padding: 8rem 0 1rem 0;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  #content {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8rem;
+  }
+
+  #note {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #9B9B9B;
+  }
+}
+
+@media only screen and (min-width: 1025px)
+{
+  body {
+    font-family: "Avenir Next", Sans-serif;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+  }
+  html {
+    overflow-x: hidden;
+    font-size: 16px;
+  }
+
+  .bg-faded {
+    background-color: #FFFFFF;
+    float: right;
+  }
+  .row, .col-sm-6 {
+    padding: 0;
+  }
+  #footer {
+    margin: 4rem 0 0 4rem;
+    background: none;
+    height: auto;
+    border-top: 1px solid #ebebeb;
+    position: absolute;
+    bottom: 0;
+  }
+  #list-footer {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  #home-note {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #898989;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  h1 {
+    padding: 5rem 0 2rem 0;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+  }
+  #content {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 8rem;
+  }
+  .words {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  #note {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #9B9B9B;
+  }
+}
