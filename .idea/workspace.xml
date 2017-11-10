@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61334ed3-6bb0-4351-ad27-75cb4b472837" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/kalo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/kalo/7.png" afterPath="$PROJECT_DIR$/images/kalo/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/kalo/8.png" afterPath="$PROJECT_DIR$/images/kalo/8.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio/theone.html" afterPath="$PROJECT_DIR$/portfolio/theone.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="62" column="64" lean-forward="false" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+            <state relative-caret-position="240">
+              <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -36,7 +35,7 @@
       <file leaf-file-name="writing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/writing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="810">
               <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding />
             </state>
@@ -46,7 +45,7 @@
       <file leaf-file-name="theone.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="495">
               <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding />
             </state>
@@ -56,7 +55,7 @@
       <file leaf-file-name="kalo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portfolio/kalo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="1155">
               <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding />
             </state>
@@ -198,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,6 +268,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,11 +437,12 @@
       <workItem from="1509757897251" duration="59000" />
       <workItem from="1509768543208" duration="1286000" />
       <workItem from="1510084699252" duration="1808000" />
+      <workItem from="1510324607815" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204660000" />
+    <option name="totallyTimeSpent" value="204696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1238" height="777" extended-state="6" />
@@ -606,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="473" column="0" lean-forward="false" selection-start-line="473" selection-start-column="0" selection-end-line="479" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/writing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="810">
           <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding />
         </state>
@@ -650,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/theone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="495">
           <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
           <folding />
         </state>
@@ -658,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio/kalo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="1155">
           <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding />
         </state>
@@ -666,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="62" column="64" lean-forward="false" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+        <state relative-caret-position="240">
+          <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
           <folding />
         </state>
       </provider>
