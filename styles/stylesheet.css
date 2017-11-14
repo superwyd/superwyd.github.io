@@ -133,9 +133,17 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */ {
     overflow-x: hidden;
     font-size: 16px;
   }
+  .navbar-toggler {
+    margin-top: 2rem;
+    padding: 0.1rem 0.3rem 0.3rem 0.3rem;
+    border: 0;
+  }
+  .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
   .bg-faded {
     background: none;
-    float: right;
   }
   #icode {
     color: #33C6D8;

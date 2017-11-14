@@ -147,6 +147,12 @@
     font-size: 1.2rem;
     margin: 2rem;
   }
+  .carousel {
+    margin: 1rem;
+  }
+  #photo {
+    margin: 2rem 0 8rem 0;
+  }
 }
 
 @media only screen
@@ -166,7 +172,15 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
     overflow-x: hidden;
     font-size: 16px;
   }
-
+  .navbar-toggler {
+    margin-top: 2rem;
+    padding: 0.1rem 0.3rem 0.3rem 0.3rem;
+    border: 0;
+  }
+  .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
   .bg-faded {
     background: none;
     float: right;
@@ -287,6 +301,12 @@ and (max-width: 1024px) and (orientation: portrait) /* Tablet */
   #about-list {
     font-size: 1.2rem;
     margin: 2rem;
+  }
+  .carousel {
+    margin: 2rem;
+  }
+  #photo {
+    margin: 2rem 0 8rem 0;
   }
 }
 
@@ -435,6 +455,12 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     justify-content: center;
     align-items :center ;
   }
+  .carousel {
+    margin: 2rem;
+  }
+  #photo {
+    margin: 2rem 0 8rem 0;
+  }
 }
 
 @media only screen and (min-width: 1025px)
@@ -580,5 +606,11 @@ and (max-width: 1024px) and (orientation: landscape) /* Tablet */
     flex-direction: column;
     justify-content: center;
     align-items :center ;
+  }
+  .carousel {
+    margin: 2rem;
+  }
+  #photo {
+    margin: 2rem 0 8rem 0;
   }
 }
