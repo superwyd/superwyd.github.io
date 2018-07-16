@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EatPick App Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Yudi Wang portfolio path web design">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../styles/workstyle.css" type="text/css">
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
+    <style>
+      #ephome {
+        background: #FDFBE7; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#FDFBE7, #FFFFFF); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FDFBE7, #FFFFFF); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FDFBE7, #FFFFFF); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FDFBE7, #FFFFFF); /* Standard syntax (must be last) */
+      }
+      body {
+        font-family: "Avenir Next", Sans-serif;
+        background-color: #FFFFFF;
+      }
+      .eptitle {
+        font-size: 3rem;
+      }
+      .epsub {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      .wrapper {
+        display: flex;
+        justify-content: center; /* align horizontal */
+      }
+      #epimg {
+        margin: 6rem 0;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+      }
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+      #eptxt {
+        margin: 12rem 4rem;
+      }
+      .textarea {
+        width: 70%;
+        margin: auto;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .btn-outline-primary {
+        color: #515151;
+        border-color: #515151;
+      }
+      .btn-outline-primary:hover {
+        background-color: #515151;
+        border-color: #515151;
+      }
+      form {
+        display:inline-block;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 4rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    </style>
+</head>
+<body>
+  <div id="ephome" class="row container-fluid">
+    <div class="col-sm-6">
+      <div id="eptxt">
+        <h1 class="eptitle">EatPick</h1>
+        <h2 class="epsub"><br><br>
+          An iOS app help users picking a restaurant from their favorite lists or nearby restaurants within one-click.
+        </h2>
+        <h2 class="epsub"><br><br>
+          This is a freelance individual design project and developed by other iOS developers.
+        </h2>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="wrapper">
+        <img id="epimg" width="70%" height="70%" src="../image/eatpick/pizzaicon.png"/>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper"><img width="3%" height="3%" src="../image/eatpick/dropdown.png"/></div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Inspiration</h1>
+    <p>Deciding where to eat is always a difficult problem for a group of people who are busy with works or study but still keep high-level requirements about meal.
+      <br><br>They may have a list of fancy restaurants but it’s sometimes hard and time consuming to pick one from the list for the current meal.</p>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Idea Overview</h1>
+    <div><img width="100%" height="100%" src="../image/eatpick/ideaoverview.jpg"/></div>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Survey</h1>
+    <p>In order to make sure there is indeed a large number of users’ need behind this idea, I conducted an online survey and got feedback from 80 people. Here attached the result.</p>
+  </div>
+  <div><img width="100%" height="100%" src="../image/eatpick/survey.png"/></div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Persona</h1>
+    <p>Based on the survey above and marketing research, I created the  persona below as my protential user.</p>
+  </div>
+  <div><img width="100%" height="100%" src="../image/eatpick/persona.png"/></div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Mood Board</h1>
+    <p>EatPick’s goal are: save users’ time, help users pick one restaurant easily, and make sure they can still enjoy delicious food.</p>
+  </div>
+  <div><img width="100%" height="100%" src="../image/eatpick/moodboard.png"/></div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Color Palette</h1>
+    <p>I picked primary colors and base colors according to my mood board.</p><br><br>
+    <img width="80%" height="80%" src="../image/eatpick/color.png"/>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Typeface</h1><br><br>
+    <img width="50%" height="50%" src="../image/eatpick/typeface.png"/>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Main Icons</h1><br><br>
+    <img width="50%" height="50%" src="../image/eatpick/icons.png"/>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>User Flows & Wireframes</h1><br><br>
+    <img width="100%" height="100%" src="../image/eatpick/userflow.png"/>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Prototype</h1>
+    <p>Here presents main features from quick sketch on paper to first prototype.</p>
+    <img width="100%" height="100%" src="../image/eatpick/p1.png"/><br><br>
+    <img width="100%" height="100%" src="../image/eatpick/p2.png"/><br><br>
+    <img width="100%" height="100%" src="../image/eatpick/p3.png"/><br><br>
+    <img width="100%" height="100%" src="../image/eatpick/p4.png"/><br><br>
+    <p><br>
+      In Settings page, users are allowed to costomize picking preference. They can let Eatpick get the restaurant from their favorite list or from nearby spots.
+      <br><br>They are also allowed to choose other two themes: Donut and Sushi which has different color but same features.
+    </p><br>
+    <img width="100%" height="100%" src="../image/eatpick/p5.png"/><br><br>
+  </div>
+  <div class="textarea">
+    <img src="../image/eatpick/seperate.png"/>
+    <h1>Usability Testing</h1><br><br>
+    <p>
+      After conducted four rounds of usability testing and five testers on each rounds, I iterated  my design according to feedbacks and suggestions. The most common three problems are listed here:
+<br><br><br>
+      <img width="50%" height="50%" src="../image/eatpick/txt.png"/>
+      <br><br><br>
+      So I combined home and search feature together, and changed searching flow. Here attached the interactive prototypes I created with Framer Studio.
+    </p>
+    <img width="40%" height="40%" src="../image/eatpick/ep.gif"/>
+  </div>
+  <div class="wrapper" id="navigate">
+    <form id="path-eatpick" action="../index.html">
+      <button type="submit" class="btn btn-outline-primary">Back to Home</button>
+    </form>
+  </div>
+</body>
+</html>

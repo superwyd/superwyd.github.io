@@ -1,3 +1,2 @@
-# superwyd.github.io
-
-my front-end and ui/ux portfolio.
+# portfolio2.0
+UPDATED Portfolio
