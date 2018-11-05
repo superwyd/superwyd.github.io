@@ -1,212 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <title>YUDI WANG | Portfolio</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="./image/logo-wyd.png" />
-  <title>Yudi Wang | UI UX Designer</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="js/main.js"></script>
   <link href="css/responsive.css" rel="stylesheet">
-</head>
+  <link href="css/eatpick.css" rel="stylesheet">
+  <style>
+    body, html {
+    height: 100%;
+}
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">
-      <img id="wyd-logo" src="./image/logo-wyd.png" width="30" height="30" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-md-auto">
-        <a class="nav-item nav-link active" href="#">About
-          <span class="sr-only">(current)</span>
-        </a>
-        <a class="nav-item nav-link" href="#work">Work</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </div>
-    </div>
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-expand-sm">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tester-unique" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="main-nav collapse navbar-collapse" id="tester-unique">
+    <ul class="navbar-nav nav" id="top-menu">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#works">WORKS</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#moments">MOMENTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+    </ul>
+  </div>
   </nav>
 
-  
-    <section id="about-intro">
-        <div id="intro-container">
-            <h1 id="intro">Hi there,<br>I'm Yudi
-              <span id="dot">.</span>
-            </h1>
-          </div>
-          <div id="detail-container">
-            <div class="row">
-                <div class="col-sm-4"></div>                              
-              <div class="col-sm-8 about-detail">
-                Enjoy coding, designing, and marketing
-                <!-- <br> Founder of
-                <span id="about-zao">
-                  <a href="http://www.zao.guru/">ZAO.GURU</a>
-                </span> -->
-                <br> CIO of
-                <span id="about-iintern">
-                  <a href="http://www.iintern.com">I-intern Career Consulting Group</a>
-                </span>
-                <br> Amateur photographer / storyteller
-              </div>
-            </div>
-          </div>
+  <section class="parallax container-fluid" id="home"></section>
 
-    </section>
-    <section id="skills-container">
-      <div class="row">
-        <div class="col-md-6" id="skill-right">
-          <img id="sp-img" width="70%" src="./image/self-protrait.png" />
+  <section class="container-fluid" id="about">
+    <div class="row">
+        <div class="col-md-7 normal">
+          <p>I'm a UI UX designer and Front-End developer with experience and passion in entrepreneurship. Based in San Francisco Bay Area now, I’m willing to work with worldwide excited projects. A 100% Dog Lover.</p>
         </div>
-        <div class="col-md-6" id="skill-left">
-            <img id="skill-img" width="50%" src="./image/skills.png" />
-            <p class="skill-set">UI UX Design</p>
-            <p class="skill-set">Web Design</p>
-            <p class="skill-set">Front-End Development</p>
-            <p class="skill-set">Social Media Marketing</p>
-            <p class="skill-set">Digital Marketing</p>
+        <div class="col-md-5">
           </div>
-      </div>
-    </section>
-  
-  <br>
-  <section id="work">
-    <img id="work-title" width="25%" src="./image/works.png" />
-    <div work-container>
+      </div> 
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-7">
         </div>
-        <div class="col-sm-4">
-          <div class="works-wrap">
-            <a href="http://www.iintern.com">
-              <img class="works-preview-r" src="./image/work-iintern.png" />
-              <div class="works-overlay">
-                <p class="works-description">
-                  A career consulting and professional training company.
-                  <br>
-                  <br> From school to your career life,
-                  <br>we help you to land your dream job.
-                </p>
-              </div>
-            </a>
+        <div class="col-md-5">
+            <img id="skill-img" width="100%" src="./image/self-protrait.png" />
+          </div>
+      </div> 
+      <div class="row" id="skills">
+        <div class="col-md-6">
+          <h1>SKILLS<span class="pink-dot">.</span></h1>
+            <p class="skill-set normal">UI UX Design</p>
+            <p class="skill-set normal">Web Design</p>
+            <p class="skill-set normal">Front-End Development</p>
+            <p class="skill-set normal">Social Media Marketing</p>
+            <p class="skill-set normal">Brand Identity</p>
+          </div>
+      <div class="col-md-6">
+      </div>
+      </div> 
+  </section>
+  <br><br><br>
+  <section class="container-fluid" id="works">
+    <h1>NOTABLE WORKS<span class="pink-dot">.</span></h1>
+    <br><br>
+    <div class="row">
+    <div class="col-md-6 mobile-work">
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
+      <img width="100%" height="auto" src="./image/iintern-cv.png" alt="i-intern">
+    </button>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle1" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLongTitle1">I-INTERN Career Consulting Group Redesign</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img class="major-display" src="./image/iintern/home.png" alt="Home">
+    <img class="major-display" src="./image/iintern/about.png" alt="Home">
+    <img class="major-display" src="./image/iintern/challenges.png" alt="Home">
+    <img class="major-display" src="./image/iintern/persona.png" alt="Home">
+    <img class="major-display" src="./image/iintern/ca.png" alt="Home">
+    <img class="major-display" src="./image/iintern/bi.png" alt="Home">
+    <img class="major-display" src="./image/iintern/logo.png" alt="Home">
+    <img class="major-display" src="./image/iintern/font.png" alt="Home">
+    <img class="major-display" src="./image/iintern/userflow.png" alt="Home">
+    <img class="major-display" src="./image/iintern/wireframes.png" alt="Home">
+    <img class="major-display" src="./image/iintern/1.png" alt="Home">
+    <img class="major-display" src="./image/iintern/2.png" alt="Home">
+    <img class="major-display" src="./image/iintern/3.png" alt="Home">
+    <img class="major-display" src="./image/iintern/4.png" alt="Home">
+    <img class="major-display" src="./image/iintern/5.png" alt="Home">
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+    </div>
+    <div class="col-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6 mobile-work">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong2">
+              <img width="100%" height="auto" src="./image/kalo-cv.png" alt="kalo">
+            </button>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle2">KALO App Design</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="major-display" src="./image/kalo/hp.png" alt="Home">
+            <img class="major-display" src="./image/kalo/homefeed.png" alt="Home">
+            <img class="major-display" src="./image/kalo/search.png" alt="Home">
+            <img class="major-display" src="./image/kalo/1.png" alt="Home">
+            <img class="major-display" src="./image/kalo/2.png" alt="Home">
+            <img class="major-display" src="./image/kalo/3.png" alt="Home">
+            <img class="major-display" src="./image/kalo/4.png" alt="Home">
+            <br><br><br><br><br><br>
+            <img class="major-display" src="./image/kalo/5.png" alt="Home">
+            <img class="major-display" src="./image/kalo/6.png" alt="Home">
+            <img width="90%" height="auto" style="margin: auto;" src="./image/kalo/7.png" alt="Home">
+            <br><br><br><br>
+            <img class="major-display" src="./image/kalo/8.png" alt="Home">
+            <br><br><br><br>
+            <img width="90%" height="auto" style="margin: auto;" src="./image/kalo/9.png" alt="Home">
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
-        <div class="col-sm-2"></div>
       </div>
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-          <div class="works-wrap works-right">
-            <a href="https://kaloapp.com/">
-              <img class="works-preview-l" src="./image/work-kalo.png" />
-              <div class="works-overlay">
-                <p class="works-description">
-                  Style inspired by you.
-                  <br>
-                  <br> Your go-to social style discovery app.
-                </p>
-              </div>
-            </a>
+    </div>            
+  </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mobile-work">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong3">
+              <img width="100%" height="auto" src="./image/bm-cv.png" alt="boston moves">
+            </button>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle3">THE ONE iOS App Design</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-        </div>
-        <div class="col-sm-6">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-        </div>
-        <div class="col-sm-4">
-          <div class="works-wrap">
-            <a href="https://www.bostonmovesre.com/">
-              <img class="works-preview-r" src="./image/work-bm.png" />
-              <div class="works-overlay">
-                <p class="works-description">
-                  Love Where You Live.
-                  <br>
-                  <br> A full service property management real estate company servicing the Boston Proper and Boston metro areas.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-          <div class="works-wrap works-right">
-            <a href="./works/eatpick.html">
-              <img class="works-preview-l" src="./image/work-ep.png" />
-              <div class="works-overlay">
-                <p class="works-description">
-                  "There is no love sincerer than the love of food."
-                  <br>
-                  <br> Let me help you pick your desired restaurants!
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6">
-        </div>
-      </div>
-      <!-- <div class="row">
-            <div class="col-sm-6">
+          <div class="modal-body">
+            <div id="container">
+              <img id="theone-home" src="./image/theone/theonehome.jpg"/>
             </div>
-            <div class="col-sm-4">
-                <div class="works-wrap">
-                    <a href="#"> 
-                    <img class="works-preview-r" src="./image/work-theone.png"/>  
-                    <div class="works-overlay">
-                          <p class="works-description">
-                            Long distance is always not a problem between us.<br><br>
-                            An app better defines long-distance couple.
-                          </p>
-                    </div>
-                  </a>
-                </div>                                            
+            <div id="imgss">
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/inspiration.png">
+              </div>
+              <div class="wrapper">
+                <img width="70%" height="70%" src="./image/theone/empathize.png">
+              </div>
+              <div class="wrapper">
+                <img width="70%" height="70%" src="./image/theone/define.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/ideate.png">
+              </div>
+              <div class="wrapper">
+                <img width="65%" height="65%" src="./image/theone/features.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/flow-wireframe.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p1.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p2.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p3.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p4.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p5.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p6.png">
+              </div>
+              <div class="wrapper">
+                <img width="60%" height="60%" src="./image/theone/p7.png">
+              </div>
             </div>
-            <div class="col-sm-2"></div>
-          </div> -->
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>             </div>
+      <div class="col-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6 mobile-work">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong4">
+              <img width="100%" height="auto" src="./image/ep-cv.png" alt="eat pick">
+            </button>
+            <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle4" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle4">Eat Pick iOS App Design</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="ephome" class="row container-fluid">
+              <div class="col-sm-6">
+                <div id="eptxt">
+                  <h2 class="eptitle">EatPick</h2>
+                  <h3 class="epsub"><br><br>
+                    An iOS app help users picking a restaurant from their favorite lists or nearby restaurants within one-click.
+                  </h3>
+                  <h3 class="epsub"><br><br>
+                    This is a freelance individual design project and developed by other iOS developers.
+                  </h3>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="wrapper">
+                  <img id="epimg" width="70%" height="70%" src="./image/eatpick/pizzaicon.png"/>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper"><img width="3%" height="3%" src="./image/eatpick/dropdown.png"/></div>
+            <div class="textarea">
+              <h2>Inspiration</h2>
+              <p>Deciding where to eat is always a difficult problem for a group of people who are busy with works or study but still keep high-level requirements about meal.
+                <br><br>They may have a list of fancy restaurants but it’s sometimes hard and time consuming to pick one from the list for the current meal.</p>
+            </div>
+            <div class="textarea">
+              <h2>Idea Overview</h2>
+              <div><img width="100%" height="100%" src="./image/eatpick/ideaoverview.jpg"/></div>
+            </div>
+            <div class="textarea">
+              <h2>Survey</h2>
+              <p>In order to make sure there is indeed a large number of users’ need behind this idea, I conducted an online survey and got feedback from 80 people. Here attached the result.</p>
+            </div>
+            <div><img width="100%" height="100%" src="./image/eatpick/survey.png"/></div>
+            <div class="textarea">
+              <h2>Persona</h2>
+              <p>Based on the survey above and marketing research, I created the  persona below as my protential user.</p>
+            </div>
+            <div><img width="100%" height="100%" src="./image/eatpick/persona.png"/></div>
+            <div class="textarea">
+              <h2>Mood Board</h2>
+              <p>EatPick’s goal are: save users’ time, help users pick one restaurant easily, and make sure they can still enjoy delicious food.</p>
+            </div>
+            <div><img width="100%" height="100%" src="./image/eatpick/moodboard.png"/></div>
+            <div class="textarea">
+              <h2>Color Palette</h2>
+              <p>I picked primary colors and base colors according to my mood board.</p><br><br>
+              <img width="80%" height="80%" src="./image/eatpick/color.png"/>
+            </div>
+            <div class="textarea">
+              <h2>Typeface</h2><br><br>
+              <img width="50%" height="50%" src="./image/eatpick/typeface.png"/>
+            </div>
+            <div class="textarea">
+              <h2>Main Icons</h2><br><br>
+              <img width="50%" height="50%" src="./image/eatpick/icons.png"/>
+            </div>
+            <div class="textarea">
+              <h2>User Flows & Wireframes</h2><br><br>
+              <img width="100%" height="100%" src="./image/eatpick/userflow.png"/>
+            </div>
+            <div class="textarea">
+              <h2>Prototype</h2>
+              <p>Here presents main features from quick sketch on paper to first prototype.</p>
+              <img width="100%" height="100%" src="./image/eatpick/p1.png"/><br><br>
+              <img width="100%" height="100%" src="./image/eatpick/p2.png"/><br><br>
+              <img width="100%" height="100%" src="./image/eatpick/p3.png"/><br><br>
+              <img width="100%" height="100%" src="./image/eatpick/p4.png"/><br><br>
+              <p><br>
+                In Settings page, users are allowed to costomize picking preference. They can let Eatpick get the restaurant from their favorite list or from nearby spots.
+                <br><br>They are also allowed to choose other two themes: Donut and Sushi which has different color but same features.
+              </p><br>
+              <img width="100%" height="100%" src="./image/eatpick/p5.png"/><br><br>
+            </div>
+            <div class="textarea">
+              <h2>Usability Testing</h2><br><br>
+              <p>
+                After conducted four rounds of usability testing and five testers on each rounds, I iterated  my design according to feedbacks and suggestions. The most common three problems are listed here:
+          <br><br><br>
+                <img width="50%" height="50%" src="./image/eatpick/txt.png"/>
+                <br><br><br>
+                So I combined home and search feature together, and changed searching flow. Here attached the interactive prototypes I created with Framer Studio.
+              </p>
+              <img width="40%" height="40%" src="./image/eatpick/ep.gif"/>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>             </div>
     </div>
   </section>
-  <footer id="contact">
-    <img width="60%" height="auto" src="./image/contact-banner.png" />
+  
+  <section class="container-fluid" id="moments">
+      <br><br><br>
+    <h1 id="moments-title">MOMENTS<span class="pink-dot">.</span></h1>
+    <br><br>
+    <div class="row">
+        <div class="col-sm-2 blank-white moment-img"></div>
+        <div class="col-sm-2 moment-img">
+          <a href="https://www.instagram.com/p/BUC7DqbBA9H/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig1.png" alt="Golden Gate Bridge"></a>
+        </div>
+        <div class="col-sm-2 blank-pink moment-img"></div>
+        <div class="col-sm-2 moment-img">
+          <a href="https://www.instagram.com/p/BkHNYGHHCap/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig2.png" alt="Golden Gate Bridge"></a>
+        </div>
+        <div class="col-sm-2 moment-img">
+          <a href="https://www.instagram.com/p/BVNyZrPhJ5U/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig3.png" alt="Golden Gate Bridge"></a>
+        </div>
+        <div class="col-sm-2 blank-white moment-img"></div>
+      </div>     
+      <div class="row">
+          <div class="col-sm-2 moment-img">
+              <a href="https://www.instagram.com/p/Biiq1mGnrZP/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig4.png" alt="Golden Gate Bridge"></a>
+          </div>
+          <div class="col-sm-2 moment-img">
+              <a href="https://www.instagram.com/p/Bbc7uHThgku/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig5.png" alt="Golden Gate Bridge"></a>
+          </div>
+          <div class="col-sm-2 blank-white moment-img"></div>
+          <div class="col-sm-2 blank-pink moment-img"></div>
+          <div class="col-sm-2 blank-white moment-img"></div>
+          <div class="col-sm-2 moment-img">
+              <a href="https://www.instagram.com/p/BnNBiZKF0RO/?utm_source=ig_web_button_share_sheet" target="_blank"><img width="100%" height="auto" src="./image/ig6.png" alt="Whitney Musuem"></a>
+          </div>
+        </div>      
+</section>        
+<br>
+<br>
+<br>
+<br>
+<section class="container-fluid" id="contact">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 id="contact-title">CONTACT<span class="pink-dot">.</span></h1>
+  <br><br>
+  <div class="row">
+      <div class="col-md-7 normal" style="color: #fff;">
+        <p>I would like to bring art, and technology with my design approaches into daily life, making it simpler, and happier.</p>
+      </div>
+      <div class="col-md-5">
+        </div>
+    </div><br><br><br>
+    <span id="letstalk"><a href="mailto:halawyd@gmail.com">LET'S TALK</a></span><br>
+    <p class="normal" style="color: #fff;">If you have something in mind.</p>
     <br>
     <br>
     <br>
     <br>
+<div id="contact-social">
+  <a href="https://www.facebook.com/yudi.wang.75" class="fa fa-facebook-square"></a>
+  <a href="mailto:halawyd@gmail.com" class="fa fa-envelope"></a>
+  <a href="https://www.linkedin.com/in/yudi-wang/" class="fa fa-linkedin"></a>
+  <a href="https://www.instagram.com/superwyd/" class="fa fa-instagram"></a>
+  <a href="https://dribbble.com/superwyd" class="fa fa-dribbble"></a>
+</div>
+<br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img id="footer-header" width="25%" height="auto" src="./image/contact-title.png" />
-    <div id="contact-social">
-      <a href="https://www.facebook.com/yudi.wang.75" class="fa fa-facebook-square"></a>
-      <a href="mailto:halawyd@gmail.com" class="fa fa-envelope"></a>
-      <a href="https://www.linkedin.com/in/yudi-wang/" class="fa fa-linkedin"></a>
-      <a href="https://www.instagram.com/superwyd/" class="fa fa-instagram"></a>
-      <a href="https://dribbble.com/superwyd" class="fa fa-dribbble"></a>
-    </div>
-    <img width="30px" height="30px" src="./image/logo-grey.png" />
-    <p id="footer">@ Handmade by YUDI WANG.</p>
-  </footer>
-</body>
+<img width="30px" height="30px" src="./image/logo-wyd.png" />
+<br><br><br>
+<p id="footer">@ Handmade by YUDI WANG.</p>
+</section>
 
+</body>
 </html>
