@@ -157,6 +157,18 @@ ul.nav {
     box-shadow: none!important;
     background: none;
   }
+  .modal-dialog {
+    max-width: 100%;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
 }
 
 /* Tablet Layout: 768px. */
@@ -327,6 +339,10 @@ ul.nav {
   .modal-dialog {
     max-width: 80%;
   }
+  .major-display {
+    width: 100%;
+    height: auto;
+  }
  }
 
  /* Medium Layout: 1280px. */
@@ -495,6 +511,10 @@ ul.nav {
   }
   .modal-dialog {
     max-width: 80%;
+  }
+  .major-display {
+    width: 100%;
+    height: auto;
   }
 }
 
