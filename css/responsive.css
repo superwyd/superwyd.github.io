@@ -159,6 +159,7 @@ ul.nav {
   }
   .modal-dialog {
     max-width: 100%;
+    margin: 0;
   }
   .major-display {
     width: 100%;
