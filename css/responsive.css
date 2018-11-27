@@ -165,6 +165,16 @@ ul.nav {
     width: 100%;
     height: auto;
   }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
   .modal-body {
     padding: 0;
     margin: auto;
@@ -344,6 +354,21 @@ ul.nav {
     width: 100%;
     height: auto;
   }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+  }
  }
 
  /* Medium Layout: 1280px. */
@@ -516,6 +541,21 @@ ul.nav {
   .major-display {
     width: 100%;
     height: auto;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
+  }
+  .modal-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -694,5 +734,15 @@ ul.nav {
     padding: 0;
     margin: auto;
     text-align: center;
+  }
+  .btn-dark {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+  }
+  .btn-dark:hover {
+    background-color: #000;
+    border: #000;
+    color: #ffffff;
   }
 }  
