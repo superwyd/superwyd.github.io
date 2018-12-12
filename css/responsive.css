@@ -1,14 +1,3 @@
-/* @font-face {
-  font-family: "Savoy Regular";
-  src: url("css/fonts/savoy_regular-webfont.ttf");
-  src: url("css/fonts/savoy_regular-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Vanity Bold";
-  src: url("css/fonts/vanity-bold-webfont.ttf");
-  src: url("css/fonts/vanity-bold-webfont.woff") format("woff");
-} */
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
